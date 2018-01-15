@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.foodordering.main.OnBoadingActivity"
+    android:background="@drawable/onboarding_image">
+
+    <TextView
+        android:id="@+id/splash_screen_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Foodies"
+        android:textColor="#FFFFFF"
+        android:textSize="64sp"
+        android:layout_centerInParent="true"/>
+    
+    <Button
+        android:id="@+id/splash_button"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Check List"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAllCaps="false"
+        android:onClick="entryButton"
+        android:background="@drawable/splash_screen_button"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
