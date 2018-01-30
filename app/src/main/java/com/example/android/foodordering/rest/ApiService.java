@@ -13,7 +13,7 @@ import retrofit2.http.Query;
 
 public interface ApiService {
 
-    @GET("/publicapi/v1/restaurant/search")
-    Call<RestaurantsResponse> getRestaurants();
+    @GET("/publicapi/v1/restaurant/search?method=both&street-address=316+W.+Washington+Ave.+Madison,+WI")
+    Call<RestaurantsResponse> getRestaurants(@Header("X-Access-Token") String authorization);
 
 }

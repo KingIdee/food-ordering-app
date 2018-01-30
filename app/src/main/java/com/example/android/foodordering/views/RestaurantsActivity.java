@@ -16,6 +16,10 @@ public class RestaurantsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_restaurants);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        //Todo: Initialize view model
+        // Todo: View models should then call repository class
+
     }
 
     @Override
